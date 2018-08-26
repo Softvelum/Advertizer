@@ -1,0 +1,28 @@
+{
+"comment":{"This is the emulation of “big red button” push: your stream is on air and you want to insert new ad right now.
+Let’s assume it’s January, 15th 2018 and it’s 20:15 GMT.
+Your server advertising_sync_interval parameter is set to “2” to allow quick changes.
+Your handler response will be as follows to run the ad in a few seconds."},
+  
+  "contents":[{"id":"1","uri":"http:\/\/192.168.232.129\/new_ad.aac.mp4"}],
+  "rules":
+  [
+    {
+    "id":"1",
+    "protocols":["icecast"], 
+    "users":[],
+    "type":"global",
+    "time_sync":"gmt",
+    "time_offset":"2018-15-01 20:15:05",
+    "time_interval":"3600",
+    "contents":[{"id":"1","onerror":"skip","wait":"10"}]
+    }
+  ]
+
+
+,"comment":{"In this case as soon as you send new response in the nearest sync, Advertizer will start the download of new ad.
+In 20:15:05 Advertizer will try to play an ad.
+If the ad file is in cache, it will be played.
+If the ad is still being downloaded, Advertizer will wait for 10 seconds (which should be enough to download small audio file)
+and then all radio listeners will hear this ad."}
+}
