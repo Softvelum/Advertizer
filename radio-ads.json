@@ -1,0 +1,36 @@
+The following response sets Nimble Advertizer to play 2 ads. 
+* At the beginning of each hour for all streams on the server.
+* Pre-roll for stream radio/stream1 on this server for every connected user.
+
+{
+  "contents":
+  [
+    {"id":"1","uri":"http:\/\/192.168.232.129\/main_sponsor.aac.mp4"},
+    {"id":"2","uri":"http:\/\/192.168.232.129\/pre-roll.aac.mp4"}
+  ],
+  "rules":
+  [
+    {
+    "id":"1",
+    "protocols":["icecast", "hls"], 
+    "users":[],
+    "type":"global",
+    "time_sync":"gmt",
+    "time_offset":"2018-01-01 00:00:00",
+    "time_interval":"3600",
+    "contents":[{"id":"1","onerror":"skip","wait":"2"}
+    },
+    {
+    "id":"2",
+    "protocols":["icecast"], 
+    "users":[],
+    "type":"stream",
+    "app":"radio",
+    "stream":"stream1",
+    "time_sync":"stream",
+    "time_offset":"0",
+    "time_interval":"0",
+    "contents":[{"id":"2","onerror":"stop","wait":"10"}
+    }
+  ]
+}
