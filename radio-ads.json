@@ -18,7 +18,7 @@ The following response sets Nimble Advertizer to play 2 ads.
     "time_sync":"gmt",
     "time_offset":"2018-01-01 00:00:00",
     "time_interval":"3600",
-    "contents":[{"id":"1","onerror":"skip","wait":"2"}
+    "contents":[{"id":"1","onerror":"skip","wait":"2"}]
     },
     {
     "id":"2",
@@ -30,7 +30,7 @@ The following response sets Nimble Advertizer to play 2 ads.
     "time_sync":"stream",
     "time_offset":"0",
     "time_interval":"0",
-    "contents":[{"id":"2","onerror":"stop","wait":"10"}
+    "contents":[{"id":"2","onerror":"stop","wait":"10"}]
     }
   ]
 }
