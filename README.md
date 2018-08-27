@@ -1,6 +1,6 @@
 # Nimble Advertizer code samples
 
-Here yo ucan find examples of Nimble Advertizer usage, such as handler code examples and JSON responses examples.
+Here you can find examples of Nimble Advertizer usage, such as handler code examples and JSON responses examples.
 
 * radio-ads.json shows pre-roll and mid-roll ads for radio stream.
 
