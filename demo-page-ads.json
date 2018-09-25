@@ -1,0 +1,82 @@
+{
+  "contents":
+  [
+    {"id":"a1","uri":"http:\/\/127.0.0.1:8081\/ads\/20180924_001.mp4"},
+    {"id":"a2","uri":"http:\/\/127.0.0.1:8081\/ads\/20180924_002.mp4"},
+    {"id":"a3","uri":"http:\/\/127.0.0.1:8081\/ads\/20180924_003.mp4"},
+    {"id":"v1","uri":"http:\/\/127.0.0.1:8081\/ads\/01-pre-roll.mp4"},
+    {"id":"v2","uri":"http:\/\/127.0.0.1:8081\/ads\/02-mid-roll.mp4"},
+    {"id":"v3","uri":"http:\/\/127.0.0.1:8081\/ads\/03-mid-roll.mp4"}
+  ],
+  "rules":
+  [
+    {
+    "id":"audio_rule_preroll",
+    "protocols":["icecast", "sldp", "rtmp", "hls"],
+    "users":[],
+    "type":"app",
+    "app":"audio_ads",
+    "time_sync":"stream",
+    "time_offset":0,
+    "time_interval":0,
+    "contents":[{"id":"a1","onerror":"stop","wait":"10"}]
+    },
+    {
+    "id":"audio_rule_midroll_1",
+    "protocols":["icecast", "sldp", "rtmp", "hls"],
+    "users":[],
+    "type":"app",
+    "app":"audio_ads",
+    "time_sync":"stream",
+    "time_offset":30,
+    "time_interval":60,
+    "contents":[{"id":"a2","onerror":"stop","wait":"10"}]
+    },
+    {
+    "id":"audio_rule_midroll_2",
+    "protocols":["icecast", "sldp", "rtmp", "hls"],
+    "users":[],
+    "type":"app",
+    "app":"audio_ads",
+    "time_sync":"stream",
+    "time_offset":60,
+    "time_interval":60,
+    "contents":[{"id":"a3","onerror":"stop","wait":"10"}]
+    },
+
+    {
+    "id":"video_rule_preroll",
+    "protocols":["icecast", "sldp", "rtmp", "hls"],
+    "users":[],
+    "type":"app",
+    "app":"video_ads",
+    "time_sync":"stream",
+    "time_offset":0,
+    "time_interval":0,
+    "contents":[{"id":"v1","onerror":"stop","wait":"10"}]
+    },
+    {
+    "id":"video_rule_midroll_1",
+    "protocols":["icecast", "sldp", "rtmp", "hls"],
+    "users":[],
+    "type":"app",
+    "app":"video_ads",
+    "time_sync":"stream",
+    "time_offset":60,
+    "time_interval":80,
+    "contents":[{"id":"v2","onerror":"stop","wait":"10"}]
+    },
+    {
+    "id":"video_rule_midroll_2",
+    "protocols":["icecast", "sldp", "rtmp", "hls"],
+    "users":[],
+    "type":"app",
+    "app":"video_ads",
+    "time_sync":"stream",
+    "time_offset":100,
+    "time_interval":80,
+    "contents":[{"id":"v3","onerror":"stop","wait":"10"}]
+    }
+
+  ]
+}
