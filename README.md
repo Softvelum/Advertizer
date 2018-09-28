@@ -11,4 +11,4 @@ You can find the following JSON responses examples:
 Notice that JSON files have comments, so please clean them up before using in your environment.
 You can make your JSON files available via HTTP or HTTPS and point your Advertizer config there so it could take instructions to run.
 
-Handler code samples are still to be published - feel free to ask for specific handler examples via our helpdesk: https://wmspanel.com/help
+Feel free to ask for more handlers and responses examples via our helpdesk: https://wmspanel.com/help
