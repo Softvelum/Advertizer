@@ -1,0 +1,36 @@
+/* The following response sets Nimble Advertizer to play ads for 2 streams according to their respective SCTE-35 markers. */
+
+{
+  "contents":
+  [
+    {"id":"1","uri":"http:\/\/192.168.232.129\/first_ad.mp4"},
+    {"id":"2","uri":"http:\/\/192.168.232.129\/second_ad.mp4"}
+  ],
+  "rules":
+  [
+    {
+    "id":"1",
+    "protocols":["hls", "sldp"], 
+    "users":[],
+    "type":"stream",
+    "app":"live",
+    "stream":"channel1"
+    "time_sync":"scte35",
+    "time_offset":"0",
+    "time_interval":"0",
+    "contents":[{"id":"1","onerror":"skip","wait":"2"}]
+    },
+    {
+    "id":"2",
+    "protocols":["hls", "sldp"], 
+    "users":[],
+    "type":"stream",
+    "app":"live",
+    "stream":"channel2"
+    "time_sync":"scte35",
+    "time_offset":"0",
+    "time_interval":"0",
+    "contents":[{"id":"2","onerror":"skip","wait":"2"}]
+    }
+  ]
+}
