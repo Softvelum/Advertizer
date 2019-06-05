@@ -14,7 +14,7 @@
     "users":[],
     "type":"stream",
     "app":"live",
-    "stream":"channel1"
+    "stream":"channel1",
     "time_sync":"scte35",
     "time_offset":"0",
     "time_interval":"0",
@@ -26,7 +26,7 @@
     "users":[],
     "type":"stream",
     "app":"live",
-    "stream":"channel2"
+    "stream":"channel2",
     "time_sync":"scte35",
     "time_offset":"0",
     "time_interval":"0",
