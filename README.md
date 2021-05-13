@@ -10,10 +10,13 @@ You can find the following examples of JSON responses from main handler:
 * scte35.json gives example of using ads with SCTE-35 markers - this artcile has more details https://blog.wmspanel.com/2019/06/scte53-markers-nimble-advertizer.html
 * audio*.mp4 and video*.mp4 are sample ads MP4 files wich are used for ads demo at live demo mentioned above.
 
-Some examples are specifi to per-session handling, we'll add links to documentation later:
+Some examples are specific to per-session handling:
 * per-session-response.json is an example of main handler which contains session_handler section
 * per-session-handler-request.json is an example of request which is sent to per-session handler by Nimble Advertizer
 * per-session-handler-response.json is an example of per-session handler response to Nimble Advertizer
+
+Read this article for more details about per-session personalized ads insertion and stats collection: https://blog.wmspanel.com/2021/05/advertizer-per-session-handler.html
+
 
 Notice that some JSON files have comments, so please clean them up before using in your environment.
 You can make your JSON files available via HTTP or HTTPS and point your Advertizer config there so it could take instructions to run.
