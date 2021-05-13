@@ -1,0 +1,36 @@
+{
+  "session_info":[
+    {
+      "session":6,
+      "app":"local",
+      "stream":"mp4\/sample.mp4",
+      "client_ip":"127.0.0.1",
+      "user_agent":"Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/87.0.4280.88 Safari\/537.36",
+      "state":"inactive"
+    },
+    {
+      "session":7,
+      "app":"local",
+      "stream":"mp4\/sample.mp4",
+      "client_ip":"127.0.0.1",
+      "user_agent":"some agent",
+      "views":[
+        {
+          "rule":"101",
+          "content":"2",
+          "uri":"http:\/\/127.0.0.1:8085\/ads\/1.mp4"}
+      ],
+      "state":"active"}
+  ],
+  "rules_request":[
+    {
+      "session":1,
+      "protocol":"hls",
+      "app":"local",
+      "stream":"mp4\/sample.mp4",
+      "client_ip":"127.0.0.1",
+      "user_agent":"curl\/7.68.0",
+      "stream_time":0
+    }
+  ]
+}
