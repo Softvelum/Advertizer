@@ -1,0 +1,20 @@
+{
+  "rules":
+  [
+    {
+      "time_offset": 0,
+      "time_sync": "stream",
+      "type": "session",
+      "id": 101,
+      "contents": [{"id": ["1", "2", "3", "4"]}]
+    }
+  ],
+  "rules_response":
+  [
+    {
+      "rules": [101],
+      "session": 5,
+      "request_interval": 10
+    }
+  ]
+}
