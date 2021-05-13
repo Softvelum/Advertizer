@@ -1,0 +1,14 @@
+{
+  "session_handler": {
+    "apps": ["local", "remote", "live"],
+    "url":"http://127.0.0.1:8085/session-handler",
+    "timeout":"1000",
+    "onerror":"skip"
+  },
+  "contents": [
+    {"id":"1","uri":"http:\/\/127.0.0.1:8085\/ads\/1.mp4"},
+    {"id":"2","uri":"http:\/\/127.0.0.1:8085\/ads\/2.mp4"}
+  ],
+  "rules": [
+  ]
+}
