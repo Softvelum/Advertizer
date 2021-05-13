@@ -13,7 +13,7 @@ You can find the following examples of JSON responses from main handler:
 Some examples are specifi to per-session handling, we'll add links to documentation later:
 * per-session-response.json is an example of main handler which contains session_handler section
 * per-session-handler-request.json is an example of request which is sent to per-session handler by Nimble Advertizer
-
+* per-session-handler-response.json is an example of per-session handler response to Nimble Advertizer
 
 Notice that some JSON files have comments, so please clean them up before using in your environment.
 You can make your JSON files available via HTTP or HTTPS and point your Advertizer config there so it could take instructions to run.
