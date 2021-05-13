@@ -6,8 +6,11 @@
     "onerror":"skip"
   },
   "contents": [
-    {"id":"1","uri":"http:\/\/127.0.0.1:8085\/ads\/1.mp4"},
-    {"id":"2","uri":"http:\/\/127.0.0.1:8085\/ads\/2.mp4"}
+    {"id":"1","uri":"http:\/\/127.0.0.1:8085\/ads\/1_180p.mp4", "height": 180},
+    {"id":"2","uri":"http:\/\/127.0.0.1:8085\/ads\/1_240p.mp4", "height": 240},
+    {"id":"3","uri":"http:\/\/127.0.0.1:8085\/ads\/1_320p.mp4", "height": 320},
+    {"id":"4","uri":"http:\/\/127.0.0.1:8085\/ads\/1_480p.mp4", "height": 480},
+    {"id":"5","uri":"http:\/\/127.0.0.1:8085\/ads\/pre-roll.aac.mp4"}
   ],
   "rules": [
   ]
