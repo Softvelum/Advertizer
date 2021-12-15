@@ -5,6 +5,7 @@ Live demo is here: https://wmspanel.com/nimble/advertizer_demo
 
 You can find the following examples of JSON responses from main handler:
 * demo-page-ads.json is a JSON used for our demo page https://wmspanel.com/nimble/advertizer_demo
+* video-tutorial-preroll.json is an used at "Add pre-roll ads to live streams easily" video tutiorial: https://www.youtube.com/watch?v=MdEoRfI6Fsk
 * radio-ads.json shows pre-roll and mid-roll ads for radio stream.
 * red-button.json shows how you can do the "big red button" to insert ads when it's needed immediately.
 * scte35.json gives example of using ads with SCTE-35 markers - this artcile has more details https://blog.wmspanel.com/2019/06/scte53-markers-nimble-advertizer.html
