@@ -1,0 +1,19 @@
+{
+"contents":
+  [
+    {"id":"pre-roll","uri":"file:///var/nimble/adv/PRE-ROLL_30fps.mp4"}
+  ],
+  "rules":
+  [
+    {
+    "id":"id_one1",
+    "protocols":["sldp", "rtmp", "hls"],
+    "users":[],
+    "type":"global",
+    "time_sync":"stream",
+    "time_offset":0,
+    "time_interval":0,
+    "contents":[{"id":"pre-roll","onerror":"stop","wait":"10"}]
+    }
+  ]
+}
