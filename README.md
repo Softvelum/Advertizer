@@ -1,10 +1,10 @@
 # Nimble Advertizer code samples
 
-Here you can find examples of Nimble Advertizer usage. You can find Advertizer description here https://wmspanel.com/nimble/advertizer and full technical specification here: https://wmspanel.com/nimble/advertizer_spec 
-Live demo is here: https://wmspanel.com/nimble/advertizer_demo
+Here you can find examples of [Nimble Advertizer](https://softvelum.com/advertizer/) usage.
+You can can take a look at [full technical specification](https://softvelum.com/advertizer/spec/) and [Live demo page](https://softvelum.com/advertizer/demo/)
 
 You can find the following examples of JSON responses from main handler:
-* demo-page-ads.json is a JSON used for our demo page https://wmspanel.com/nimble/advertizer_demo
+* demo-page-ads.json is a JSON used for [our demo page](https://softvelum.com/advertizer/demo/)
 * video-tutorial-preroll.json is an used at "Add pre-roll ads to live streams easily" video tutiorial: https://www.youtube.com/watch?v=MdEoRfI6Fsk
 * radio-ads.json shows pre-roll and mid-roll ads for radio stream.
 * red-button.json shows how you can do the "big red button" to insert ads when it's needed immediately.
